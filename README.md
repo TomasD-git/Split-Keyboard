@@ -4,7 +4,7 @@ split keyboard, basically modified 60 precent
 
 Keycaps: https://www.aliexpress.com/item/1005007360831985.html  
 ESP32: https://www.aliexpress.com/item/1005008750977454.html  //  N8R2  
-
+add: 3u spacebar(3D printed??)  
 
 # Layout:  
   
