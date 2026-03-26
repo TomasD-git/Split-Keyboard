@@ -4,8 +4,9 @@ split keyboard, basically modified 60 precent
 
 Keycaps: https://www.aliexpress.com/item/1005007360831985.html  
 ESP32: https://www.aliexpress.com/item/1005008750977454.html  //  N8R2  
+M2xL3xOD3: https://www.aliexpress.com/item/1005006071488810.html // M2xL3xOD3  
 add: 3u spacebar(3D printed??)  
-
+  
 # Layout:  
   
 ["Esc","1","2","3","4","5","6","7","8","9","0","-","=",{w:2},"Backspace",{w:1.25},"PrtSc"],  
