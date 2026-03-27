@@ -54,8 +54,8 @@ You can visualise and edit these layouts at [keyboard-layout-editor.com](http://
 
 ## Planned improvements:  
 
-**Wrist rests** 
-3D print custom wrist rests that magnetically attach to each half.  
+**Bluetooth**  
+Add battery, so keyboard can be used with bluetooth  
 
 **Proper firmware (ZMK / QMK / KMK)**  
 Move from a hand-rolled firmware to ZMK (ideal for wireless ESP32 splits) for layers, combos, and community support.  
