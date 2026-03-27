@@ -6,6 +6,10 @@ Keycaps: https://www.aliexpress.com/item/1005007360831985.html
 ESP32: https://www.aliexpress.com/item/1005008750977454.html  //  N8R2  
 M2xL3xOD3: https://www.aliexpress.com/item/1005006071488810.html // M2xL3xOD3  
 5x3: https://www.aliexpress.com/item/1005009327234616.html  //  5x3-50 Pieces  
+cherry mx switches:  https://www.aliexpress.com/item/1005004285423123.html  
+1N4148WT T4 SOD-523:  https://www.aliexpress.com/item/1005007160563285.html  
+M2 screws:  https://www.aliexpress.com/item/1005005789516333.html  
+PCB: gerber files  
 
 add: 3u spacebar(3D printed??)  
   
