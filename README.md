@@ -20,7 +20,7 @@ The keyboard is split into two halfes, each wired to its own ESP32. Key presses 
 | 1N4148WT SOD-523 diodes | One per switch — prevents ghosting in the key matrix | ? | 1 pack | ? | [Link](https://www.aliexpress.com/item/1005007160563285.html) | AliExpress |
 | M2 screws | Holds the PCB and case together | ? | 1 pack | ? | [Link](https://www.aliexpress.com/item/1005005789516333.html) | AliExpress |
 | PCB | Custom PCB made in KiCad | N/A | 1 | N/A | [Gerber files in repo](https://jlcpcb.com) | JLCPCB |
-| 3U Spacebar (3D printed) | Custom wider spacebar for the split layout | — | 2 | — | Print myself | — |
+| 3U Spacebar (3D printed) | Custom wider spacebar for the split layout | — | 2 | — | [Print myself](https://makerworld.com/en/models/1820853-oem-keycap-3u-spacebar) | MakerWorld |
 
 </details>
 
