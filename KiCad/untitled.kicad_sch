@@ -1,0 +1,7684 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5c552222-af38-4d62-8138-9f9421951d21")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:1N4148WT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WT"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WT_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 163.83 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00c97c62-09ed-4fbe-9e73-1971a3c4f60e")
+	)
+	(junction
+		(at 163.83 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04db3ffa-84e1-4106-adbc-540ce77397fb")
+	)
+	(junction
+		(at 153.67 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c1c0d62-ee11-4770-9853-363280714dd1")
+	)
+	(junction
+		(at 153.67 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c5f494e-bbc7-4d10-a5d0-4c8f46e2d7db")
+	)
+	(junction
+		(at 137.16 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e72aa9b-1bab-4b84-804b-94ff0a37bf45")
+	)
+	(junction
+		(at 213.36 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16beb228-dafd-4dcc-a9c4-e7a972931605")
+	)
+	(junction
+		(at 97.79 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c135240-831b-480a-8fc1-fed66a8f50c6")
+	)
+	(junction
+		(at 130.81 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d81ed33-659a-41e7-b489-4a2234555a6f")
+	)
+	(junction
+		(at 147.32 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21c8dd53-387c-4329-9101-358aa05e8e11")
+	)
+	(junction
+		(at 137.16 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "280de369-0bb9-4c4e-b44d-b4cf809a6670")
+	)
+	(junction
+		(at 170.18 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "298e45ee-bd83-493b-87fc-8165bd560410")
+	)
+	(junction
+		(at 203.2 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29ecc1fe-121d-4e0d-8d96-5ddbc1727d2d")
+	)
+	(junction
+		(at 153.67 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d5ea9a4-6828-4945-897a-ad228e2c1651")
+	)
+	(junction
+		(at 87.63 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d633275-fef5-453b-a758-76c257214ba8")
+	)
+	(junction
+		(at 196.85 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dbba935-599f-4bcf-b0b3-132558634f9c")
+	)
+	(junction
+		(at 186.69 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ec587cd-fa84-4004-9281-ba2d2be93a9e")
+	)
+	(junction
+		(at 213.36 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e90b6d9-6a87-4a7c-bbbb-996d4366a263")
+	)
+	(junction
+		(at 163.83 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eb8b339-a55b-4de1-882e-ee979f9a8059")
+	)
+	(junction
+		(at 213.36 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4987f30e-c28a-4ca2-ab95-347b81479113")
+	)
+	(junction
+		(at 186.69 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cb752a-7849-4ee4-8622-4b0909bfcd67")
+	)
+	(junction
+		(at 87.63 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5112356b-c13f-40b6-a1bb-ebebd1fc5a60")
+	)
+	(junction
+		(at 114.3 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61286e25-6741-4449-a477-39f8969eb09a")
+	)
+	(junction
+		(at 71.12 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6400b892-303f-4912-8196-c8ccb699c132")
+	)
+	(junction
+		(at 203.2 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bf22501-3d92-4ead-a9a4-86d04a0c3124")
+	)
+	(junction
+		(at 137.16 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cea6c5e-0342-4ca2-adf0-bdd5bbec9007")
+	)
+	(junction
+		(at 147.32 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7103d8f0-6d4c-43b0-a5b2-5acad703db61")
+	)
+	(junction
+		(at 104.14 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "726fc8d7-76a4-4365-9c07-abbbb9cb9212")
+	)
+	(junction
+		(at 213.36 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "780c5a7c-2094-4bc3-b236-d216e2e4d516")
+	)
+	(junction
+		(at 114.3 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7819600e-86c3-412c-9541-3ece4d62873c")
+	)
+	(junction
+		(at 180.34 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85587371-cf39-45bf-ba63-c82c75528641")
+	)
+	(junction
+		(at 147.32 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "856e0f1c-6383-45f3-b7ff-fa0a32e54f94")
+	)
+	(junction
+		(at 180.34 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89000d1a-14ef-4b1b-bac2-f4b075b073c5")
+	)
+	(junction
+		(at 137.16 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cb541a0-eb59-43ca-9ae1-660e435c1ed1")
+	)
+	(junction
+		(at 147.32 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e7e6ee5-aac0-4b94-baaa-815957ba26e2")
+	)
+	(junction
+		(at 104.14 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "922e3f5c-8538-4aab-bd34-24224b5fde24")
+	)
+	(junction
+		(at 104.14 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96c02824-2c69-41a3-829c-07a8a3bf9cb4")
+	)
+	(junction
+		(at 130.81 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96c4bfdd-92ef-4176-801b-d1be7ba5a484")
+	)
+	(junction
+		(at 163.83 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99a02e14-99be-4edf-b148-8f1ad8547c09")
+	)
+	(junction
+		(at 186.69 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f72fcd9-e0c1-4b87-853c-50a8cacf9074")
+	)
+	(junction
+		(at 203.2 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2a316fa-a8f4-48c1-8336-c293fb003720")
+	)
+	(junction
+		(at 114.3 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a36fea72-844a-44b1-b4c1-f6d747de17dd")
+	)
+	(junction
+		(at 87.63 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a597d20a-ae3b-48dc-99c3-13ffb962381a")
+	)
+	(junction
+		(at 186.69 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7a57b1f-2a3c-48d3-825e-d939d4c544a0")
+	)
+	(junction
+		(at 97.79 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aabe6289-450c-45c6-ab6a-6a9531285b50")
+	)
+	(junction
+		(at 153.67 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af4c5c92-6077-450b-ad40-4dfdc61b5d89")
+	)
+	(junction
+		(at 120.65 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af657226-059e-41f4-a4b0-eb24f85028d2")
+	)
+	(junction
+		(at 97.79 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b03751e4-d4cc-4ffd-99fd-eed127207acd")
+	)
+	(junction
+		(at 114.3 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1bfeff8-5a15-45c9-8610-a98d6327c8a6")
+	)
+	(junction
+		(at 104.14 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b85018b3-8f97-43f1-b958-ab863a4182ba")
+	)
+	(junction
+		(at 130.81 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4e2b76-40f6-4d92-85f2-70a1a8896ec0")
+	)
+	(junction
+		(at 203.2 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be20be42-9ae5-4d10-823e-ced3ce6b2f75")
+	)
+	(junction
+		(at 196.85 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94ca52e-4a57-4643-8683-b9cc3c1625be")
+	)
+	(junction
+		(at 147.32 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc9c2ffe-1b36-4467-8b3f-30d907e4c3b7")
+	)
+	(junction
+		(at 120.65 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e154d280-1f57-4548-bd0e-aae75af22a69")
+	)
+	(junction
+		(at 213.36 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1ea7f93-f975-492a-a033-dcd5fdf24ad3")
+	)
+	(junction
+		(at 196.85 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e20cafc4-db7b-4d5b-918b-dad1a151345a")
+	)
+	(junction
+		(at 120.65 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e242a8e6-e9fc-4d3a-8acc-a4aef3c54b79")
+	)
+	(junction
+		(at 196.85 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e77bad7c-1d74-4669-a0ae-595ec671c080")
+	)
+	(junction
+		(at 130.81 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7beb1b6-1e0e-4fff-99bb-ccb4a1d27d8c")
+	)
+	(junction
+		(at 71.12 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0052c42-2b64-48af-99c9-afb5afb9282e")
+	)
+	(junction
+		(at 196.85 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8ab6140-ff3f-4a27-a710-903c8eb07078")
+	)
+	(junction
+		(at 163.83 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffbc2fbb-eb21-4d82-88f5-e0c8445f0938")
+	)
+	(wire
+		(pts
+			(xy 71.12 55.88) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001b5034-8db4-40eb-a90d-55d43abb4702")
+	)
+	(wire
+		(pts
+			(xy 147.32 107.95) (xy 163.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0050fd07-b27c-4b1b-9d8b-8a4a3e03f378")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0078c4c0-0b72-4368-b403-61ee696589df")
+	)
+	(wire
+		(pts
+			(xy 130.81 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6e75ac-54a1-4021-a916-140e4b6f2a82")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f579dcd-3f9e-41a7-a458-a6678cc56adb")
+	)
+	(wire
+		(pts
+			(xy 213.36 74.93) (xy 223.52 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109ff94b-4c9f-44f9-bb36-6d22cabc3238")
+	)
+	(wire
+		(pts
+			(xy 163.83 140.97) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116ee766-e1be-4567-a98a-0063c79ffe58")
+	)
+	(wire
+		(pts
+			(xy 97.79 107.95) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ea1441-96be-42fb-8c09-f329420bda10")
+	)
+	(wire
+		(pts
+			(xy 203.2 67.31) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4ef053-dce8-42f4-adb2-c4480fef8f2c")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d609086-afb1-40ae-ac50-a4af5e5dd97e")
+	)
+	(wire
+		(pts
+			(xy 147.32 124.46) (xy 163.83 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2051dfa6-6d7c-46b6-be75-c844312eec49")
+	)
+	(wire
+		(pts
+			(xy 163.83 124.46) (xy 196.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21cb58b1-7b77-41ca-8efe-a0f69ac28912")
+	)
+	(wire
+		(pts
+			(xy 120.65 67.31) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b382b7-7545-4386-8276-224df053ce1e")
+	)
+	(wire
+		(pts
+			(xy 137.16 116.84) (xy 137.16 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2713cfa7-50f0-4514-832d-45564d71fc5f")
+	)
+	(wire
+		(pts
+			(xy 203.2 116.84) (xy 203.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbe9057-412b-45d6-af89-3d3ab0420b8f")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4d2a2b-c9aa-480a-86ea-f81ef83d678b")
+	)
+	(wire
+		(pts
+			(xy 104.14 67.31) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305ea060-873d-42fb-86b8-9c6baab766d8")
+	)
+	(wire
+		(pts
+			(xy 87.63 55.88) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ca7ff3-9421-42ff-9fba-470dd0bc281f")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f5dd2a-fc4d-488e-aee0-21ff0ab63419")
+	)
+	(wire
+		(pts
+			(xy 81.28 74.93) (xy 97.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ac2ebb-3f43-4a90-9d40-79ed6e534ebd")
+	)
+	(wire
+		(pts
+			(xy 213.36 107.95) (xy 223.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fea8883-1ec9-4d9e-b410-8980e16522c5")
+	)
+	(wire
+		(pts
+			(xy 196.85 124.46) (xy 213.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ce878f-123a-4570-844b-b1dbbfd8a6fa")
+	)
+	(wire
+		(pts
+			(xy 153.67 67.31) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a098d37-6789-4642-9448-222f5c09efcc")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 147.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a29e6d7-115a-4c8a-96f4-b57ba1887652")
+	)
+	(wire
+		(pts
+			(xy 97.79 124.46) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b578941-92ac-4e8e-a559-38f115ad1a85")
+	)
+	(wire
+		(pts
+			(xy 163.83 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be7a261-0b05-498b-bb7f-1ff484041519")
+	)
+	(wire
+		(pts
+			(xy 186.69 116.84) (xy 186.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7f7a67-bd70-421f-8bd3-1531d3c19ea6")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cac5bc9-fdcf-4eb4-96e7-419f07af193d")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d19d5bd-9cb0-41c9-b513-68154ccd72d8")
+	)
+	(wire
+		(pts
+			(xy 120.65 83.82) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5140a31c-bacd-44fd-a4cf-9caba5897a10")
+	)
+	(wire
+		(pts
+			(xy 186.69 100.33) (xy 186.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52df9771-4e1d-479b-b30f-d51d228d3143")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c07a7e5-319c-4d44-be21-671ed4815574")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.82) (xy 71.12 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da8af9d-0d40-453e-8407-b6999c75a479")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.88) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61083fb1-6d47-49cf-b5e5-514ad36dca2b")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 97.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ec72e5-c824-45df-9969-ecedc6f420c4")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 213.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ebde9f-988e-4c7d-a245-3563391b4077")
+	)
+	(wire
+		(pts
+			(xy 213.36 140.97) (xy 223.52 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69025a3a-f296-444b-8035-553050821719")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb71141-8d61-4e2d-8caf-85b8c347d0ab")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.33) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716cb812-64f7-40f5-b79b-ccd6054233d7")
+	)
+	(wire
+		(pts
+			(xy 153.67 55.88) (xy 153.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ae78be-3ada-447d-9a94-d3c2a2ea627a")
+	)
+	(wire
+		(pts
+			(xy 186.69 67.31) (xy 186.69 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bf6dea-228c-4713-b458-295f28131364")
+	)
+	(wire
+		(pts
+			(xy 163.83 107.95) (xy 196.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72402547-92b7-4a1e-8171-c04ffa037565")
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97) (xy 196.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d067c7-0576-4c9e-b179-643265e281b8")
+	)
+	(wire
+		(pts
+			(xy 196.85 140.97) (xy 213.36 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2eb6ee-2296-427d-b899-40dff3fa0306")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 170.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f0f4f8-269c-45ac-bc1b-8ede458c8593")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88363233-49af-4dd6-ae5b-c936c63af3c3")
+	)
+	(wire
+		(pts
+			(xy 120.65 100.33) (xy 120.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa29e41-eead-4676-956a-e426d3e1505d")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c72c951-e2ef-4057-b6e0-973ab2acc6f4")
+	)
+	(wire
+		(pts
+			(xy 114.3 124.46) (xy 130.81 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9550f40f-ac09-4ed4-8f71-6d722dc794f1")
+	)
+	(wire
+		(pts
+			(xy 71.12 67.31) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a727c09-423d-478a-b757-e63413c808ff")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0264e98-6893-457d-be53-99d354ff06c6")
+	)
+	(wire
+		(pts
+			(xy 153.67 83.82) (xy 153.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a157fea8-e4a0-4f8b-b28a-3b35b24a4417")
+	)
+	(wire
+		(pts
+			(xy 196.85 74.93) (xy 213.36 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9faddd-7a87-4a38-aada-17fc05c74623")
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88) (xy 104.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04b69a7-1892-4588-9385-2178f4b6a59d")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12cdc74-8bd6-44d5-85e8-5925ca4aad17")
+	)
+	(wire
+		(pts
+			(xy 81.28 107.95) (xy 97.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5e8596-a2df-4847-82b2-1b451beba2b5")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 87.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba67f80-7748-4316-9eb2-19fc2bf15dc9")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beaa0391-5ef6-402f-9511-87c54cd81fae")
+	)
+	(wire
+		(pts
+			(xy 163.83 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72ac536-eb30-4d45-aeef-cad448388247")
+	)
+	(wire
+		(pts
+			(xy 137.16 100.33) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8dc71d4-dd1f-4c50-80e3-fa74f63c3655")
+	)
+	(wire
+		(pts
+			(xy 203.2 83.82) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8db602-5370-4713-8080-8f9f4bdd0f53")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 223.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc572052-df07-4739-b757-a89a763cf71d")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa81c4f-6c8b-4ee5-ad4f-db78333c00d4")
+	)
+	(wire
+		(pts
+			(xy 203.2 55.88) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09e011f-0600-4714-a028-2af2e0ea37f0")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 87.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18e3af6-514b-49fe-8486-dc534005cee2")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb5948a-ae57-4c3a-be4c-fa9f0c44d642")
+	)
+	(wire
+		(pts
+			(xy 196.85 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a917e6-5a63-4f2a-9b52-1433e6cbbedf")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 203.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3783bab-93b7-4925-bd4b-eb0cef050121")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e452f1ff-5567-4843-b606-8ea1cc38469a")
+	)
+	(wire
+		(pts
+			(xy 186.69 83.82) (xy 186.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb380a46-2797-4fce-8513-d19fe53ce698")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.44) (xy 223.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c6469c-82f3-4898-8d75-3ffbc8e1d6cb")
+	)
+	(wire
+		(pts
+			(xy 114.3 140.97) (xy 147.32 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17e3652-1432-453a-8c2e-46f1477e4713")
+	)
+	(wire
+		(pts
+			(xy 186.69 55.88) (xy 186.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4093459-8570-4399-a4fd-0a1fd57b53ca")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 163.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc63eaa7-4ed9-4b2a-958f-dc89a495e8f4")
+	)
+	(wire
+		(pts
+			(xy 104.14 116.84) (xy 104.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8a759a-2fb5-4275-9927-e1a6dec8732c")
+	)
+	(wire
+		(pts
+			(xy 147.32 140.97) (xy 163.83 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff247e1a-b1e4-4740-a491-7911c6ca3105")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 142.24 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "002d7509-7830-4880-82db-8986e72fd39d")
+		(property "Reference" "SW60"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "632b1854-f205-4f3c-b827-ff407ba660a3")
+		)
+		(pin "2"
+			(uuid "fe0fbff4-5c0c-4f38-a17d-e133b27d1156")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW98")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "024bf962-5e8b-4ebd-9b99-03eae1864923")
+		(property "Reference" "SW49"
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7996fdd6-c599-4c83-ac65-d0578af50b61")
+		)
+		(pin "2"
+			(uuid "d9d7a0a5-e3fd-493c-be11-3c0890f8e023")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW87")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 81.28 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0266854a-8f3d-41ff-ac15-62ab33330439")
+		(property "Reference" "D47"
+			(at 83.82 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 83.82 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 85.725 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9038ab3-a2c1-4c35-bf3b-726d1ef8306a")
+		)
+		(pin "2"
+			(uuid "cc0c9662-5834-4e4e-b407-81058f9021f1")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D85")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 208.28 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b80a16-cbfc-4625-a1ce-5d314ed78a7e")
+		(property "Reference" "SW70"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "934738dd-d8ff-4c54-bc1d-576c1dbf9ce8")
+		)
+		(pin "2"
+			(uuid "ddd6d893-db3e-42b2-8402-326b1f1725a7")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW108")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 76.2 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "171a92bc-5be1-447e-8e12-14cdb913bbd1")
+		(property "Reference" "SW39"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaaa5348-f199-4ffe-96c6-2890b2f15815")
+		)
+		(pin "2"
+			(uuid "f83e8d5f-0320-42e8-90ec-561820f1907f")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW77")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 158.75 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ee24f2e-7927-497e-864d-0ff46fdf0bc2")
+		(property "Reference" "SW44"
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb63784e-b764-4c2b-b558-d367cfe39fc4")
+		)
+		(pin "2"
+			(uuid "1a2ede79-80ee-4676-8f50-7aaa934945ad")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW82")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 125.73 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27bb5828-d223-4dc9-80cb-b7cae8edcaac")
+		(property "Reference" "SW50"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b54bc07-6c79-4456-9b48-7625dc2c1e88")
+		)
+		(pin "2"
+			(uuid "7f2840c2-fe75-46bb-a6d4-b6a98606be56")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW88")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 158.75 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aa8f51c-3394-4efb-b18e-4ac872e8eb34")
+		(property "Reference" "SW73"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544f097e-794a-4fd5-8995-cc89fc581eb5")
+		)
+		(pin "2"
+			(uuid "26832f54-6702-450a-9dd4-8eb6fe48f924")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW111")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 81.28 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c77d588-d3ea-4e3c-8a1f-5ca98796dfd5")
+		(property "Reference" "D56"
+			(at 83.82 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 83.82 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 85.725 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "427a2994-81eb-48ac-94cd-fd2b187d54a8")
+		)
+		(pin "2"
+			(uuid "c82eaff2-6523-478c-a102-ff3fa3792ceb")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D94")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 196.85 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da8e8c9-5bb2-4217-a833-de3e9b7553a6")
+		(property "Reference" "D75"
+			(at 199.39 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 199.39 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 201.295 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1f4cbb4-1085-4d87-a181-8761a32e3570")
+		)
+		(pin "2"
+			(uuid "4c605c0e-1d31-480c-a3d8-32f402375bf0")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D113")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 147.32 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f3f48b7-e2f8-4faa-b784-b3a12bb3266a")
+		(property "Reference" "D67"
+			(at 149.86 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 149.86 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 151.765 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e723591e-ac5e-4bca-88b7-df6e97a90dd4")
+		)
+		(pin "2"
+			(uuid "774be79a-1cf8-4fa9-9b88-a7e7831cc5bd")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D105")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3100bf4f-7905-41df-9206-db27714698e6")
+		(property "Reference" "SW65"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf9831eb-5a1f-41c8-b825-d68de42f3158")
+		)
+		(pin "2"
+			(uuid "ed86b59c-9a13-48c4-8ff4-faa0c91683c3")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW103")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 208.28 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "351485c8-41da-4272-a1d3-cb459baebfd1")
+		(property "Reference" "SW63"
+			(at 208.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c053e8f9-5a85-4369-9980-4cfd6d9ad4da")
+		)
+		(pin "2"
+			(uuid "899a0778-2dfd-4c09-b36a-85ba5894d932")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW101")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 97.79 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "395cab7d-e8f8-42c8-9885-a6434f73292c")
+		(property "Reference" "D57"
+			(at 100.33 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 100.33 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 102.235 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ef3a541-ec9f-407f-8e3a-5a0f8b08ec20")
+		)
+		(pin "2"
+			(uuid "01a1953c-e046-4a91-b89d-42f6363949a9")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D95")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 92.71 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a4820d2-2f1e-403d-a702-35fd3339698a")
+		(property "Reference" "SW57"
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 92.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44d76e3d-f7d9-4ff0-a90c-8655859dc2f2")
+		)
+		(pin "2"
+			(uuid "97291244-f16c-407e-9bad-18692d2420ad")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW95")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 130.81 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d68e414-ecad-4d7f-b1e8-a10a14ec3c1a")
+		(property "Reference" "D66"
+			(at 133.35 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 133.35 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 135.255 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1174ffd-d42a-45ba-84e1-78231cc57fd6")
+		)
+		(pin "2"
+			(uuid "196b6571-1329-414b-927d-e9159d1152e6")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D104")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 97.79 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "414b9dc5-2a12-421d-9908-ba45511d8cea")
+		(property "Reference" "D64"
+			(at 100.33 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 100.33 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 102.235 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a173ec71-a239-4a99-b93f-15d81b6c4064")
+		)
+		(pin "2"
+			(uuid "0927af82-c405-4bba-b52a-78905271b9bb")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D102")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 125.73 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "431cd11d-ca6a-4799-9366-c9e52f84fbb0")
+		(property "Reference" "SW42"
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a7adb2d-0c38-4cf8-b1d9-af2dc3878049")
+		)
+		(pin "2"
+			(uuid "e6293c44-aa25-49a2-9f20-c3b7e0197622")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW80")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 76.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d011d54-0589-4155-8258-ca06e45c98e2")
+		(property "Reference" "SW56"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "270ef8fb-ae40-428f-9bac-95f9d49280a2")
+		)
+		(pin "2"
+			(uuid "1a2e8847-aa4b-4289-855c-ed383f412e46")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW94")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 142.24 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f05a9a0-9ff4-48c4-beae-0ecd0577927d")
+		(property "Reference" "SW67"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a68713a-eb25-427e-beb2-06c444fea7e1")
+		)
+		(pin "2"
+			(uuid "6c5d1a0e-4555-48bb-955f-4ef750bd055b")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW105")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 191.77 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "586d331e-2342-4c7a-9b2b-f5fa1c331d8b")
+		(property "Reference" "SW69"
+			(at 191.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb0f76ab-2b9f-482b-bd66-d402b5acb146")
+		)
+		(pin "2"
+			(uuid "5f78b646-6a62-4e07-bd94-1fff8bc0c084")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW107")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 175.26 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae09886-6dd9-4f0d-8788-414e55aef45e")
+		(property "Reference" "SW53"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6773fdbc-82d0-468c-a522-caf55c98a63b")
+		)
+		(pin "2"
+			(uuid "d830408a-64e3-4244-86e0-ec144907f7ab")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW91")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 97.79 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "635b75bd-7057-4b7b-8d1e-b922da9d4b3c")
+		(property "Reference" "D48"
+			(at 100.33 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 100.33 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 102.235 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35f733f8-5dbc-44e5-8283-056487debd05")
+		)
+		(pin "2"
+			(uuid "974f41ab-2235-4704-a1e7-9c971f3fe6bb")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D86")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 114.3 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65cb20e9-10b4-4b53-8147-86ee65371e6f")
+		(property "Reference" "D58"
+			(at 116.84 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 116.84 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 118.745 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7eab0dd-26bb-4c7f-b649-4ceb54bf00af")
+		)
+		(pin "2"
+			(uuid "c7afc2b4-b5a5-4434-bfde-dabbdc2fd50a")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D96")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 142.24 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69263835-a63e-4549-b67d-81611c8a4fea")
+		(property "Reference" "SW72"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 142.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3911dc22-57f1-48a5-adcb-c3af1e68d826")
+		)
+		(pin "2"
+			(uuid "be13ccfa-118a-460e-8de2-e9e63c53b292")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW110")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 208.28 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6af80238-f29e-419c-91d6-bf9f8076cec4")
+		(property "Reference" "SW76"
+			(at 208.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 208.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "977efa54-38c1-47e9-9366-ed48c3131a02")
+		)
+		(pin "2"
+			(uuid "d2ac31f9-d460-46e5-bf70-4f914ec20ec4")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW114")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 76.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b494f8c-7125-4a9c-b0d7-763febc41337")
+		(property "Reference" "SW47"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e7c0c8-20f3-4728-8d98-15d2ff22929b")
+		)
+		(pin "2"
+			(uuid "d6886882-940d-47a6-84e4-368ba257241c")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW85")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 196.85 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c0437b8-ec44-4e7c-a8fe-70dfecad81f2")
+		(property "Reference" "D54"
+			(at 199.39 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 199.39 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 201.295 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13f9576d-a4b6-4f5c-a876-be00e254a032")
+		)
+		(pin "2"
+			(uuid "4c9d973f-cf06-4d2b-ae13-e1b0006b40dc")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D92")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 147.32 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e1fa197-e592-4695-8c08-08e2a6c646e4")
+		(property "Reference" "D51"
+			(at 149.86 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 149.86 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 151.765 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf40687a-1fde-474f-be58-7576100335ce")
+		)
+		(pin "2"
+			(uuid "41a6c4e4-2c41-4326-8149-342a2022e5e1")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D89")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 142.24 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f2d0f80-cc34-41e1-88c1-e9d173bfaf94")
+		(property "Reference" "SW43"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f4c6809-551b-4342-9e73-393b385e071b")
+		)
+		(pin "2"
+			(uuid "d3f011e4-2db6-4d36-849c-b8d05246f2fb")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW81")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 191.77 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72c2b29f-0a51-45bd-a7c7-dbe15bd1ffa0")
+		(property "Reference" "SW45"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34e8581e-ca26-43d6-ae5f-bc16cd104bef")
+		)
+		(pin "2"
+			(uuid "1b541679-8a17-46ce-8583-79db1cf01fbe")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW83")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78db84cd-0ada-4192-ad89-661afb134c9e")
+		(property "Reference" "SW58"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f85f7b7-613e-4b15-83de-4823c8355cc6")
+		)
+		(pin "2"
+			(uuid "82ce4c09-a574-40d2-b3a5-d7a29c0cdc1d")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW96")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 114.3 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dec1403-77cf-4912-ac0a-8d0722b93561")
+		(property "Reference" "D71"
+			(at 116.84 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 116.84 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 118.745 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1965b4e8-4cd4-482b-8035-05511d661cb2")
+		)
+		(pin "2"
+			(uuid "0cc08177-7c56-4600-abe8-042e90dd48d9")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D109")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 147.32 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "864ea4ad-47da-45a1-9312-67ccaa08bd57")
+		(property "Reference" "D60"
+			(at 149.86 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 149.86 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 151.765 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdcafaab-5c83-4d8e-bc06-25718801ffeb")
+		)
+		(pin "2"
+			(uuid "ea4a5ff9-467e-4ee3-b067-0c62c2bd4e8f")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D98")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 114.3 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88ad8418-26a1-44c1-8d19-255681369a3d")
+		(property "Reference" "D41"
+			(at 116.84 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 116.84 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 118.745 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5fecaf-6285-4ca6-aa4d-2dc6babb937d")
+		)
+		(pin "2"
+			(uuid "93d56dbd-242a-4acd-a66e-5825fba1f500")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D79")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 191.77 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8afdd119-c784-4d6e-acd7-971fce2887a0")
+		(property "Reference" "SW62"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9176f910-49bf-4f01-a251-ea0b4e54f709")
+		)
+		(pin "2"
+			(uuid "e0e1c64d-5778-4a8b-8e80-6217c24aa1ae")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW100")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 163.83 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e856ac8-57a5-4994-8722-6580683e9a1d")
+		(property "Reference" "D61"
+			(at 166.37 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 166.37 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 168.275 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d89ccbb4-7ece-44fc-9107-68d232b14f62")
+		)
+		(pin "2"
+			(uuid "84308107-153b-4e60-984a-ffd04d35d658")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D99")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 130.81 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f53c0cf-e792-4cda-a624-f6db15146d4a")
+		(property "Reference" "D50"
+			(at 133.35 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 133.35 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 135.255 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0d947f4-79bb-45a4-9ac5-50235187433f")
+		)
+		(pin "2"
+			(uuid "bb8bb051-d053-45b6-9729-e878eef23508")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D88")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 125.73 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9436ac11-1c2a-4945-a517-34a3ec68558a")
+		(property "Reference" "SW66"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98edc3b1-134e-4cb9-9925-7562274bd8e7")
+		)
+		(pin "2"
+			(uuid "32aba3aa-ee52-484d-8557-197880417ad5")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW104")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "944f135b-6f62-405f-86cb-a4f0bd15ab5c")
+		(property "Reference" "SW41"
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a88f3933-91e3-4ffd-b219-039d23578966")
+		)
+		(pin "2"
+			(uuid "91875633-5316-426c-a9a4-7b2f1b823ffa")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW79")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 158.75 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "948c1f49-9761-445e-a1bd-bd7d4ebc5af9")
+		(property "Reference" "SW61"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2fb767-4d9b-4264-8541-5f5255d136f0")
+		)
+		(pin "2"
+			(uuid "6d8a3b16-b078-4fc0-91f0-800e92ae4a98")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW99")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 208.28 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c8903eb-3e5b-4a86-a9f9-5dc4ed72eba8")
+		(property "Reference" "SW46"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 208.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 208.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b51d9ca2-82f9-4f73-a987-d9a56ddacd6f")
+		)
+		(pin "2"
+			(uuid "e208cda7-aa95-4ee9-8cbc-0211867977a0")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW84")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 114.3 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dd171a3-361e-4d54-8594-2a3e3c03cc77")
+		(property "Reference" "D65"
+			(at 116.84 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 116.84 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 118.745 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd150c23-721f-42d6-b768-d911360de367")
+		)
+		(pin "2"
+			(uuid "3b9dbe4e-9064-439f-bd2a-3af879035b75")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D103")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 213.36 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5044115-a043-4d13-8c2a-3a250d6d6b4d")
+		(property "Reference" "D46"
+			(at 215.9 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 215.9 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 217.805 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aadeb632-a484-4b4b-a84a-e7fc87e6726f")
+		)
+		(pin "2"
+			(uuid "96f33ccb-716b-46eb-b9fe-12c717d21d53")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D84")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 130.81 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa82eb28-552a-495f-afed-e63ad10bed92")
+		(property "Reference" "D42"
+			(at 133.35 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 133.35 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 135.255 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45f641fe-752a-4809-af41-5d37aa2fc538")
+		)
+		(pin "2"
+			(uuid "e1c8c2df-7b5a-4a65-962e-88cec0dd231b")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D80")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf04816-3289-48f7-a4e4-c34167899e5a")
+		(property "Reference" "SW71"
+			(at 109.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f53f3403-af45-4c27-b11c-efa6c70e29ae")
+		)
+		(pin "2"
+			(uuid "6ad03e7c-5402-4281-9229-a2cb6afa5134")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW109")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 125.73 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afeab6d5-8edf-43eb-96b4-60320859230e")
+		(property "Reference" "SW59"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30404971-a779-4ce3-b49f-f8f8f35bd7d4")
+		)
+		(pin "2"
+			(uuid "a47a298e-c0eb-49be-8989-a3790217d8dd")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW97")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 158.75 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5d18322-6d8c-4b3a-8861-2766e64b6b14")
+		(property "Reference" "SW52"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0df054e1-0981-4959-8520-7e9eb487a219")
+		)
+		(pin "2"
+			(uuid "810c9dfa-4664-4551-a22a-7040a31411f0")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW90")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 158.75 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9aaf037-e676-47be-9520-123f55b45eab")
+		(property "Reference" "SW68"
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0430a430-370a-49cb-8d7c-4789442a3421")
+		)
+		(pin "2"
+			(uuid "fc2fece6-09cf-4d71-9e7b-69280503a3aa")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW106")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 92.71 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc335aed-f391-474f-95d0-3b406d930119")
+		(property "Reference" "SW64"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 92.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5c8b784-cd70-4d20-aa64-cc4a113afe4b")
+		)
+		(pin "2"
+			(uuid "3041c83f-b26c-42e6-a880-17678057410e")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW102")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 81.28 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd2c6faf-0970-4c7e-af4e-325ec0e8fb33")
+		(property "Reference" "D39"
+			(at 83.82 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 83.82 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 85.725 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf2b9781-ac63-4b1b-89d0-7aa4d58400cb")
+		)
+		(pin "2"
+			(uuid "a601c094-d150-4504-8980-44cda660bd31")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D77")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 163.83 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1c8eec4-c9e9-4dee-91dd-326e4b828ddf")
+		(property "Reference" "D73"
+			(at 166.37 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 166.37 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 168.275 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c321467-b709-4738-8170-092154a7058f")
+		)
+		(pin "2"
+			(uuid "40d0d5fa-ba8a-4aea-885e-ef2936481e84")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D111")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 213.36 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a2f563-9c61-463b-a0c6-5f57851c00e4")
+		(property "Reference" "D55"
+			(at 215.9 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 215.9 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 217.805 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "113cac97-a073-4f6a-b625-2d8c3a0bdcd7")
+		)
+		(pin "2"
+			(uuid "707f3a8b-cc84-4036-91d8-1b5b57b31893")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D93")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 191.77 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c57d470e-58cb-4539-8dc2-fb7171598191")
+		(property "Reference" "SW75"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4a532a5-28cc-4938-81f2-521ad2a8fe2c")
+		)
+		(pin "2"
+			(uuid "9e876f2c-976b-4e62-a7e9-bbd485117d88")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW113")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 196.85 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd4d604f-5288-4011-b039-2479d0d3fe3c")
+		(property "Reference" "D69"
+			(at 199.39 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 199.39 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 201.295 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 196.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 196.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88ac2a12-61a0-4a88-abd1-fd88c3bbe794")
+		)
+		(pin "2"
+			(uuid "3a72b631-c58c-4fc3-99c9-33c0356537cb")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D107")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 191.77 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde03f89-f838-47e3-b64b-89cb51192f39")
+		(property "Reference" "SW54"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 191.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "447d0510-afd4-48c9-9c70-e4f1553b5889")
+		)
+		(pin "2"
+			(uuid "ab6a57a1-d44c-40c1-80a7-c3970906defd")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW92")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 147.32 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce36fac7-e5a3-43ed-b314-ca79679719cd")
+		(property "Reference" "D43"
+			(at 149.86 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 149.86 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 151.765 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f68bc5c4-4bf5-4d09-bb7f-28b61e50b3b9")
+		)
+		(pin "2"
+			(uuid "7f15ad10-15d4-4b88-b21a-b607a6840ba1")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D81")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 163.83 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfecc8e8-70db-437f-a85f-a874888e7910")
+		(property "Reference" "D52"
+			(at 166.37 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 166.37 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 168.275 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fb2c9ad-67b7-4669-bbc4-193ab295b623")
+		)
+		(pin "2"
+			(uuid "a3ac021a-9e6f-49da-a57d-b5f591bbb913")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D90")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 213.36 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d49a50f9-cd44-4063-8df8-785830455842")
+		(property "Reference" "D76"
+			(at 215.9 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 215.9 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 217.805 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8caed02d-8e14-47d4-8d6d-10afa1b7a45e")
+		)
+		(pin "2"
+			(uuid "9ef1d0ef-decb-43a9-98e6-6664d9ca6fc0")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D114")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 180.34 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c73efb-6a81-4607-aff0-b8ddc53e5ba2")
+		(property "Reference" "D74"
+			(at 182.88 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 182.88 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 184.785 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af76d00c-dbc1-415e-aa43-05cacb30a8ed")
+		)
+		(pin "2"
+			(uuid "3d37074a-cb09-4e89-9af1-439bdc4fcd8c")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D112")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 196.85 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0419b3f-0e67-458a-babd-99571b7ad312")
+		(property "Reference" "D45"
+			(at 199.39 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 199.39 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 201.295 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4f9d749-32fd-4e6f-b65a-2b2d2f58eec2")
+		)
+		(pin "2"
+			(uuid "618bd50e-afc5-4f70-a02a-8de837c673a3")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D83")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 147.32 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0bf2dc8-ee64-4f95-8f81-491864f4ec18")
+		(property "Reference" "D72"
+			(at 149.86 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 149.86 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 151.765 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e42fb34-0a09-4172-8674-ad052a55b8f5")
+		)
+		(pin "2"
+			(uuid "4c54334c-9fae-47cb-8958-84fc7af03943")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D110")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 92.71 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e12d9d86-e5f9-4677-af98-d2dcca2bc033")
+		(property "Reference" "SW40"
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aa90eda-41eb-41ab-8c8b-de8493f110d8")
+		)
+		(pin "2"
+			(uuid "af2276a8-6957-4671-8a0e-340e80d19c19")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW78")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 163.83 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e455cdd4-4db9-4274-b89c-46a6d6d409a9")
+		(property "Reference" "D68"
+			(at 166.37 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 166.37 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 168.275 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61c15be2-2774-45b3-82c5-3beb910dc3f6")
+		)
+		(pin "2"
+			(uuid "692c216e-f85f-4824-a35d-878001b9d145")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D106")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 130.81 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6942c98-580e-4457-8951-c5281e8f4ac7")
+		(property "Reference" "D59"
+			(at 133.35 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 133.35 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 135.255 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9676eec6-6256-418d-beb5-4f79d1ff124f")
+		)
+		(pin "2"
+			(uuid "cd46f692-5672-457a-aaa2-de2eedc9b1a7")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D97")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 180.34 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb3b0d84-d80c-4365-b4be-7451f942de74")
+		(property "Reference" "D53"
+			(at 182.88 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 182.88 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 184.785 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d26d2a5-4c40-47fe-be3c-1e38084e28a5")
+		)
+		(pin "2"
+			(uuid "1c6e7fc7-22a0-4efc-8a0a-f9cb0db0e56a")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D91")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 114.3 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd8f4c2-6ff9-4c96-ba48-bd362f1dfd44")
+		(property "Reference" "D49"
+			(at 116.84 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 116.84 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 118.745 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9c21526-da75-457c-b459-5e3ddc0586da")
+		)
+		(pin "2"
+			(uuid "b4595393-3d11-4894-a51e-da1eddfd45db")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D87")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 196.85 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee7fc57c-025e-4183-af70-ae1ff259cce4")
+		(property "Reference" "D62"
+			(at 199.39 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 199.39 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 201.295 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035ce8ef-5375-40c4-9785-f9b325ce041a")
+		)
+		(pin "2"
+			(uuid "93992605-b50d-4fe7-bc56-86b918244e0e")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D100")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 163.83 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f12324d3-2202-46de-9dc2-cb8779b3dbe5")
+		(property "Reference" "D44"
+			(at 166.37 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 166.37 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 168.275 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd682690-b226-4950-b15e-7fb28d2d6879")
+		)
+		(pin "2"
+			(uuid "45b10b41-ce06-4b39-8ef2-78bb868fc573")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D82")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 208.28 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4136031-c156-4afb-9208-d74e1f56f5f9")
+		(property "Reference" "SW55"
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df588f0d-2360-467a-95bb-095464d1aed9")
+		)
+		(pin "2"
+			(uuid "66cf1184-8ec4-4e2c-94d0-25cc7d16f886")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW93")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 213.36 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6744111-e937-429a-87ca-08d312ea1b22")
+		(property "Reference" "D70"
+			(at 215.9 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 215.9 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 217.805 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 213.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 213.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a33bfa77-e858-4ed2-956e-22962881dfdd")
+		)
+		(pin "2"
+			(uuid "31c94452-67dc-48b7-975b-929e80eb8d86")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D108")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 97.79 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f74d29e2-fd76-4a24-94fe-9cf90535e104")
+		(property "Reference" "D40"
+			(at 100.33 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 100.33 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 102.235 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4d03039-0517-4cf8-ae3e-bd6876882359")
+		)
+		(pin "2"
+			(uuid "32090f8b-24c3-4bf5-8488-afa331249923")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D78")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 213.36 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e96077-2609-4b12-aee8-ac594f19e9bb")
+		(property "Reference" "D63"
+			(at 215.9 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 215.9 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 217.805 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38d05c10-5392-4c7e-8f3d-8518b3474799")
+		)
+		(pin "2"
+			(uuid "b568c157-fe9f-4e5f-8f10-cc6e25f62f40")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "D101")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 175.26 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa49268c-5ad9-4ec3-abff-7f3a38e3d3f6")
+		(property "Reference" "SW74"
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcade2bf-dcb1-4551-95dc-c4fe77b759e6")
+		)
+		(pin "2"
+			(uuid "47cc642f-6e4b-4a2a-a0a4-4044e3629a98")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW112")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 92.71 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe9c37f0-8486-4307-98ca-1dc0f907c6b3")
+		(property "Reference" "SW48"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b764d703-e6d3-4e5d-8828-dde8fa40dc5b")
+		)
+		(pin "2"
+			(uuid "8a781f29-b3b7-49af-b37d-e501600987fc")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW86")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 142.24 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feb64c58-135d-4867-853d-3c4464500a62")
+		(property "Reference" "SW51"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9223c75-7672-4306-8783-f46f0ee40bba")
+		)
+		(pin "2"
+			(uuid "71f4e081-abf1-4b0c-bba1-c9224bf73b29")
+		)
+		(instances
+			(project "Splitt Keyboard"
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/3fe4e75f-fb77-4c01-aaed-ef3e43af1cd6"
+					(reference "SW89")
+					(unit 1)
+				)
+				(path "/6ab48b2d-73a8-452b-8b93-22c04ad8aa3d/5e04aed3-d92d-4c86-8c5c-c22665cd417c"
+					(reference "SW51")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
