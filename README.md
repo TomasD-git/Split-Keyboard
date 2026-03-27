@@ -1,6 +1,7 @@
 # Split-Keyboard
 
 > A handwired split mechanical keyboard — essentially a modified 60% layout cut down the middle, powered by two ESP32 microcontrollers communicating wirelessly.
+<img width="550" height="250" alt="Screenshot 2026-03-26 151546" src="https://github.com/user-attachments/assets/9baa9cb3-e1ba-4e68-91ca-db8d48b2ccc5" />
 
 ---
 
@@ -47,6 +48,17 @@ The keyboard is split into two halfes, each wired to its own ESP32. Key presses 
 
 You can visualise and edit these layouts at [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/).
 
+</details>
+
+<details>
+  <summary>Pictures</summary>
+<img width="1350" height="517" alt="Screenshot 2026-03-26 151546" src="https://github.com/user-attachments/assets/7ee7cd5f-4eba-4c2f-a7b4-c2ce5fd82fa3" />
+<img width="1322" height="752" alt="Screenshot 2026-03-26 151321" src="https://github.com/user-attachments/assets/10d22bd2-c599-4a59-b376-2e9e47df24b0" />
+<img width="925" height="284" alt="Screenshot 2026-03-26 151123" src="https://github.com/user-attachments/assets/46e0d0d3-5b42-41b4-a978-2b156474cd32" />
+<img width="989" height="771" alt="Screenshot 2026-03-26 151553" src="https://github.com/user-attachments/assets/39a7c8cd-bbc1-495f-98aa-05bff577474b" />
+
+
+  
 </details>
 
 <details>
