@@ -12,15 +12,15 @@ The keyboard is split into two halfes, each wired to its own ESP32. Key presses 
 
 | Name | Purpose | Cost Per Item (USD) | Quantity | Total (USD) | Link | Distributor |
 |------|---------|-------------------|---------|------------|------|------------|
-| Keycaps | The keycaps sitting on top of the switches | ? | 1 set | ? | [Link](https://www.aliexpress.com/item/1005007360831985.html) | AliExpress |
-| ESP32 N8R2 | Brain of each half | ? | 2 | ? | [Link](https://www.aliexpress.com/item/1005008750977454.html) | AliExpress |
-| M2xL3xOD3 heat-set inserts | for securing the case without stripping | ? | 1 pack | ? | [Link](https://www.aliexpress.com/item/1005006071488810.html) | AliExpress |
-| 5×3mm neodymium magnets | hold together both halfes | ? | 50 | ? | [Link](https://www.aliexpress.com/item/1005009327234616.html) | AliExpress |
-| Cherry MX switches | The mechanical switches under each keycap | ? | 1 pack | ? | [Link](https://www.aliexpress.com/item/1005004285423123.html) | AliExpress |
-| 1N4148WT SOD-523 diodes | One per switch — prevents ghosting in the key matrix | ? | 1 pack | ? | [Link](https://www.aliexpress.com/item/1005007160563285.html) | AliExpress |
-| M2 screws | Holds the PCB and case together | ? | 1 pack | ? | [Link](https://www.aliexpress.com/item/1005005789516333.html) | AliExpress |
-| PCB | Custom PCB made in KiCad | N/A | 1 | N/A | [Gerber files in repo](https://jlcpcb.com) | JLCPCB |
-| 3U Spacebar (3D printed) | Custom wider spacebar for the split layout | — | 2 | — | [Print myself](https://makerworld.com/en/models/1820853-oem-keycap-3u-spacebar) | MakerWorld |
+| Keycaps | The keycaps sitting on top of the switches | 15 | 1 set | 15 | [Link](https://www.aliexpress.com/item/1005007360831985.html) | AliExpress |
+| ESP32 N8R2 | Brain of each half | 7 | 2 | 14 | [Link](https://www.aliexpress.com/item/1005008750977454.html) | AliExpress |
+| M2xL3xOD3 heat-set inserts | for securing the case without stripping | 4 | 1 pack | 4 | [Link](https://www.aliexpress.com/item/1005006071488810.html) | AliExpress |
+| 5×3mm magnets (pack of 50) | hold together both halfes | 5 | 1 | 5 | [Link](https://www.aliexpress.com/item/1005009327234616.html) | AliExpress |
+| Cherry MX switches | The mechanical switches under each keycap | 16 | 1 pack | 16 | [Link](https://www.aliexpress.com/item/1005004285423123.html) | AliExpress |
+| 1N4148WT SOD-523 diodes | One per switch — prevents ghosting in the key matrix | 4 | 1 pack | 4 | [Link](https://www.aliexpress.com/item/1005007160563285.html) | AliExpress |
+| M2 screws | Holds the PCB and case together | 7.32 | 1 pack | 7.32 | [Link](https://www.aliexpress.com/item/1005005789516333.html) | AliExpress |
+| PCB | Custom PCB made in KiCad | ??? | 1 | ??? | [Gerber files in repo](https://jlcpcb.com) | JLCPCB |
+| 3U Spacebar (3D printed) | Custom wider spacebar for the split layout | 0 | 2 | 0 | [Print myself](https://makerworld.com/en/models/1820853-oem-keycap-3u-spacebar) | MakerWorld |
 
 </details>
 
