@@ -1,0 +1,9 @@
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"PCB","Custom PCB so each switch and diode get their own spot",1,53.23,"https://jlcpcb.com","jlcpcb"
+"M2 screws","Holds the PCB and case together",1,7.32,"https://www.aliexpress.com/item/1005005789516333.html","Aliexpress"
+"1N4148WT SOD-523 diodes","One per switch — prevents ghosting in the key matrix",1,4.00,"https://www.aliexpress.com/item/1005007160563285.html","Aliexpress"
+"Cherry MX switches","The mechanical switches under each keycap",1,16.00,"https://www.aliexpress.com/item/1005004285423123.html","Aliexpress"
+"5×3mm magnets (pack of 50)","hold together both halfes (to make it detachable)",1,5.00,"https://www.aliexpress.com/item/1005009327234616.html","Aliexpress"
+"M2xL3xOD3 heat-set inserts","for securing the case without stripping",1,4.00,"https://www.aliexpress.com/item/1005006071488810.html","Aliexpress"
+"ESP32 N8R2","Brain of both sides of the keyboard",2,14.00,"https://www.aliexpress.com/item/1005008750977454.html","Aliexpress"
+"Keycaps","The keycaps sitting on top of the switches",1,15.00,"https://www.aliexpress.com/item/1005007360831985.html","Aliexpress"
