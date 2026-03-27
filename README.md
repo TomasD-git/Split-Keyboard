@@ -19,7 +19,7 @@ The keyboard is split into two halfes, each wired to its own ESP32. Key presses 
 | Cherry MX switches | The mechanical switches under each keycap | 16 | 1 pack | 16 | [Link](https://www.aliexpress.com/item/1005004285423123.html) | AliExpress |
 | 1N4148WT SOD-523 diodes | One per switch — prevents ghosting in the key matrix | 4 | 1 pack | 4 | [Link](https://www.aliexpress.com/item/1005007160563285.html) | AliExpress |
 | M2 screws | Holds the PCB and case together | 7.32 | 1 pack | 7.32 | [Link](https://www.aliexpress.com/item/1005005789516333.html) | AliExpress |
-| PCB | Custom PCB made in KiCad | ??? | 1 | ??? | [Gerber files in repo](https://jlcpcb.com) | JLCPCB |
+| PCB | Custom PCB made in KiCad | 53 | 1 | 53 | [Gerber files in repo](https://jlcpcb.com) | JLCPCB |
 | 3U Spacebar (3D printed) | Custom wider spacebar for the split layout | 0 | 2 | 0 | [Print myself](https://makerworld.com/en/models/1820853-oem-keycap-3u-spacebar) | MakerWorld |
 
 </details>
