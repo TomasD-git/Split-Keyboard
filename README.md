@@ -1,7 +1,8 @@
 # Split-Keyboard
 
 > A handwired split mechanical keyboard — essentially a modified 60% layout cut down the middle, powered by two ESP32 microcontrollers communicating wirelessly.
-<img width="550" height="250" alt="Screenshot 2026-03-26 151546" src="https://github.com/user-attachments/assets/9baa9cb3-e1ba-4e68-91ca-db8d48b2ccc5" />
+<img width="1180" height="499" alt="Screenshot 2026-04-01 140808" src="https://github.com/user-attachments/assets/905c65c1-c04b-4c36-bca9-6b8ba59b727d" />
+
 
 ---
 
@@ -52,7 +53,8 @@ You can visualise and edit these layouts at [keyboard-layout-editor.com](http://
 
 <details>
   <summary>Pictures</summary>
-<img width="1350" height="517" alt="Screenshot 2026-03-26 151546" src="https://github.com/user-attachments/assets/7ee7cd5f-4eba-4c2f-a7b4-c2ce5fd82fa3" />
+<img width="1180" height="499" alt="Screenshot 2026-04-01 140808" src="https://github.com/user-attachments/assets/87a5be86-712b-4239-a80a-7d8d7e8fe30e" />
+<img width="1190" height="598" alt="Screenshot 2026-04-01 140824" src="https://github.com/user-attachments/assets/7d2a8256-3184-4808-a8dc-c3c5120aad10" />
 <img width="1322" height="752" alt="Screenshot 2026-03-26 151321" src="https://github.com/user-attachments/assets/10d22bd2-c599-4a59-b376-2e9e47df24b0" />
 <img width="925" height="284" alt="Screenshot 2026-03-26 151123" src="https://github.com/user-attachments/assets/46e0d0d3-5b42-41b4-a978-2b156474cd32" />
 <img width="989" height="771" alt="Screenshot 2026-03-26 151553" src="https://github.com/user-attachments/assets/39a7c8cd-bbc1-495f-98aa-05bff577474b" />
